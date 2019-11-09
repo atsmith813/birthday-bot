@@ -1,0 +1,7 @@
+ruby '2.6.3'
+source 'https://rubygems.org'
+gem 'colorize'
+gem 'dotenv'
+gem 'google_drive'
+gem 'rake'
+gem 'twilio-ruby'

@@ -1,0 +1,5 @@
+.env
+
+# Ignore swp files from vim
+*.swp
+*.swo
