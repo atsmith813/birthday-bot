@@ -60,3 +60,9 @@ Everything is packaged up into Rake tasks.
 - `rake birthdays:import` - this will open the `birthdays.ics` file in the root directory, parse the data into Birthday objects, and upload them to Google Sheets.
 - `rake birthdays:update_past` - if you find yourself in a situation where you exported birthdays to `birthdays.ics` and then don't start running the bot until days later, you'll have some birthdays that are missed. You can run this task to update any birthdays that are in the past.
 - `rake birthdays:send_todays_birthdays_text` - this is the primary task that gets scheduled to run daily on Heroku. It opens the Google Sheet, parses out the birthdays, finds the current day's birthdays, sends the text message, and then updates the current birthdays to 1 year in the future.
+
+## Future Ideas
+Some future ideas/features I hope to add:
+- Turn this into an Alexa skill so you can ask your Alexa, "Alexa, whose birthday is it today?"
+- Add future birthday notices (i.e. get a notification 1 week before the actual birthday)
+- Import phone numbers of friends from contacts
