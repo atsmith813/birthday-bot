@@ -10,6 +10,8 @@ Facebook used to be how I managed birthdays. But they somewhat recently [removed
 
 As referenced in the [article](https://www.digitaltrends.com/news/facebook-removes-friends-birthday-export/), someone built a nice [workaround](https://github.com/mobeigi/fb2cal) to export birthdays from Facebook using Python. By following the steps in the [README](https://github.com/mobeigi/fb2cal/blob/master/README.md), I was able to get all of the data I need to get started. All of my Facebook friends' birthdays are exported into a file named `birthdays.ics`. This will be the starting point - you have birthdays in a `.ics` file.
 
+*I wrote a quick Medium post on this idea [here](https://medium.com/@A_Smith223/how-to-build-an-sms-text-birthday-reminder-bot-using-ruby-twilio-and-google-sheets-28363fa29bac?source=friends_link&sk=4971b677b91b54a12cbd5c9f7b138176).*
+
 ## Overview
 
 Here's how the 🤖 works.
